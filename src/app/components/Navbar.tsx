@@ -1,22 +1,48 @@
-import React from "react";
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import React from "react";
+import { usePathname } from "next/navigation";
+
 export default function Navbar() {
+  const path = usePathname();
+
   return (
-    <div
-      className="flex justify-between"
-      style={{ backgroundColor: "#2F2878" }}
-    >
-      <Image
-        className="p-4 mx-4"
-        src={"/g1.png"}
-        alt=""
-        width={150}
-        height={1}
-      />
-      <ul className="flex gap-16 p-4 mx-4 text-white text-lg items-center">
-        <Link href={"/meta"}>Meta</Link>
-        <Link href={"/nao"}>Nao</Link>
+    <div className="flex justify-between bg-[#2F2878] p-4">
+      <Image className="mx-4" src={"/g1.png"} alt="" width={150} height={1} />
+      <ul className="hidden sm:flex gap-8 text-white text-lg items-center">
+        <li>
+          <Link href={"/meta"}>
+            <span
+              className={`relative hover:text-gray-300 transition duration-200 ${
+                path === "/meta" ? "underline" : ""
+              }`}
+            >
+              Meta
+              <span
+                className={`absolute h-1 bg-white bottom-0 left-0 transition-all duration-200 ${
+                  path === "/meta" ? "w-full" : "w-0"
+                }`}
+              />
+            </span>
+          </Link>
+        </li>
+        <li>
+          <Link href={"/nao"}>
+            <span
+              className={`relative hover:text-gray-300 transition duration-200 ${
+                path === "/nao" ? "underline" : ""
+              }`}
+            >
+              Nao
+              <span
+                className={`absolute h-1 bg-white bottom-0 left-0 transition-all duration-200 ${
+                  path === "/nao" ? "w-full" : "w-0"
+                }`}
+              />
+            </span>
+          </Link>
+        </li>
       </ul>
     </div>
   );
