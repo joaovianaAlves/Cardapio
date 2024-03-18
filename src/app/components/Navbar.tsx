@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className="flex justify-between bg-[#2F2878] p-4">
       <Image className="mx-4" src={"/g1.png"} alt="" width={150} height={1} />
-      <ul className="hidden sm:flex gap-8 text-white text-lg items-center">
+      <ul className="hidden sm:flex gap-8 text-white text-lg items-center px-16">
         <li>
           <Link href={"/meta"}>
             <span
@@ -20,7 +20,7 @@ export default function Navbar() {
             >
               Meta
               <span
-                className={`absolute h-1 bg-white bottom-0 left-0 transition-all duration-200 ${
+                className={`absolute h-0 bg-white bottom-0 left-0 transition-all duration-200 ${
                   path === "/meta" ? "w-full" : "w-0"
                 }`}
               />
@@ -36,7 +36,7 @@ export default function Navbar() {
             >
               Nao
               <span
-                className={`absolute h-1 bg-white bottom-0 left-0 transition-all duration-200 ${
+                className={`absolute h-0 bg-white bottom-0 left-0 transition-all duration-200 ${
                   path === "/nao" ? "w-full" : "w-0"
                 }`}
               />

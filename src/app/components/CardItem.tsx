@@ -53,7 +53,7 @@ export default function CardItem({ cardInfo }: CardItemProps) {
               <div className="flex justify-center items-center">
                 <Link
                   href={"/nao"}
-                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-3 px-20 rounded-lg bg-blue-600 transform hover:scale-105"
+                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-20 rounded-lg bg-blue-600 transform hover:scale-105"
                 >
                   <span className="text-white font-bold">Solicitar</span>
                 </Link>

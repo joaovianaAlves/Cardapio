@@ -1,62 +1,79 @@
 export const cardInfo = [
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/Adivinhas.png",
+    title: "Adivinhas",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis ",
+      "Desafie seus alunos com adivinhas sobre diversos temas, estimulando o raciocínio lógico e a criatividade.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/Bingo.png",
+    title: "Bingo",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis ",
+      "Crie bingos personalizados sobre qualquer assunto, tornando o aprendizado mais divertido e interativo.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/ContacaoDeHistorias.png",
+    title: "Contação de Histórias",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis ",
+      "Mergulhe seus alunos em mundos mágicos com histórias envolventes, utilizando recursos como narração e sons.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/HistoriaInterativa.png",
+    title: "História Interativa",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis",
+      "Dê aos alunos o poder de escolher o destino da história, tornando a experiência ainda mais imersiva e emocionante.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/HistoriacomPerguntas.png",
+    title: "História com Perguntas",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis ",
+      "Teste o conhecimento dos alunos sobre a história com perguntas interativas, promovendo a compreensão e o aprendizado.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/DataComemorativa.png",
+    title: "Data Comemorativa",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis ",
+      "Aprenda sobre datas comemorativas importantes e responda perguntas sobre o tema, expandindo o conhecimento cultural dos alunos.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/Ditado.png",
+    title: "Ditado",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis",
+      "Pratique ortografia com ditados personalizados, utilizando recursos como sons e imagens para auxiliar na memorização.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/DesafioMatematico.png",
+    title: "Desafio Matemático",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis ",
+      "Desafie seus alunos com problemas matemáticos de diferentes níveis de dificuldade, estimulando o raciocínio lógico e a resolução de problemas.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/Idiomas.png",
+    title: "Idiomas",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis ",
+      "Aprenda um novo idioma de forma divertida e interativa, com atividades personalizadas para diferentes níveis de conhecimento.",
   },
   {
-    image: "/NaoImage.jfif",
-    title: "Nao",
+    image: "/Nao/GangnamStyle.png",
+    title: "Gangnam Style",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ab laborum illum eligendi ut perferendis",
+      "Divirta-se com o NAO dançando a música Gangnam Style de forma divertida e contagiante.",
+  },
+  {
+    image: "/Nao/Aquecimento.png",
+    title: "Aquecimento",
+    description:
+      "Prepare-se para exercícios físicos com uma série de alongamentos e movimentos leves guiados pelo NAO.",
+  },
+  {
+    image: "/Nao/CimaouBaixo.png",
+    title: "Cima ou Baixo",
+    description: "Desafie seus amigos na brincadeira Vivo ou Morto",
+  },
+  {
+    image: "/Nao/DançadasCadeiras.png",
+    title: "Dança das Cadeiras",
+    description:
+      "Brinque de Dança das Cadeiras com o NAO, utilizando qualquer música que você desejar.",
   },
 ];
