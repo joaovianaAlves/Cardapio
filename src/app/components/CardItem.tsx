@@ -18,7 +18,7 @@ interface CardItemProps {
 export default function CardItem({ cardInfo }: CardItemProps) {
   return cardInfo.map((item, index) => {
     return (
-      <div key={index} className="m-2">
+      <div key={index} className="m-2 min-w-[200px]">
         <div className="flex flex-col p-3 items-center justify-between border border-gray-300 rounded-2xl shadow-lg w-[90%] mx-auto my-4 bg-white hover:shadow-2xl transition duration-300 ease-in-out cursor-pointer h-full">
           <div>
             <Image
@@ -53,7 +53,7 @@ export default function CardItem({ cardInfo }: CardItemProps) {
               <div className="flex justify-center items-center">
                 <Link
                   href={"/nao"}
-                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-20 rounded-lg bg-blue-600 transform hover:scale-105"
+                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-14 rounded-lg bg-blue-600 transform hover:scale-105"
                 >
                   <span className="text-white font-bold">Solicitar</span>
                 </Link>

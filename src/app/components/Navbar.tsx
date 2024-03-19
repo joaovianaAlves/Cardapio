@@ -14,13 +14,11 @@ export default function Navbar() {
         <li>
           <Link href={"/meta"}>
             <span
-              className={`relative hover:text-gray-300 transition duration-200 ${
-                path === "/meta" ? "underline" : ""
-              }`}
+              className={`relative hover:text-gray-300 transition duration-200 `}
             >
               Meta
               <span
-                className={`absolute h-0 bg-white bottom-0 left-0 transition-all duration-200 ${
+                className={`absolute h-[1px] bg-white bottom-0 left-0 transition-all duration-200 ${
                   path === "/meta" ? "w-full" : "w-0"
                 }`}
               />
@@ -30,13 +28,11 @@ export default function Navbar() {
         <li>
           <Link href={"/nao"}>
             <span
-              className={`relative hover:text-gray-300 transition duration-200 ${
-                path === "/nao" ? "underline" : ""
-              }`}
+              className={`relative hover:text-gray-300 transition duration-200`}
             >
               Nao
               <span
-                className={`absolute h-0 bg-white bottom-0 left-0 transition-all duration-200 ${
+                className={`absolute h-[1px] bg-white bottom-0 left-0 transition-all duration-200 ${
                   path === "/nao" ? "w-full" : "w-0"
                 }`}
               />
