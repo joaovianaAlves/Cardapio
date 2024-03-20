@@ -57,6 +57,12 @@ export default function CardItem({ cardInfo }: CardItemProps) {
                 >
                   <span className="text-white font-bold">Solicitar</span>
                 </Link>
+                {/* <Link
+                  href={"/nao"}
+                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-2 rounded-lg bg-blue-600 transform hover:scale-105"
+                >
+                  <span className="text-white font-bold">Explorar</span>
+                </Link> */}
               </div>
             )}
           </div>
