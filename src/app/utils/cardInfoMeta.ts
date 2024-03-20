@@ -2,7 +2,7 @@ import { link } from "fs";
 
 export const cardInfo = [
   {
-    image: "/meta/Meta.jfif",
+    image: "/meta/Workrooms.jpg",
     title: "Workrooms",
     description:
       "Uma plataforma de colaboração virtual projetada para reuniões e trabalho em equipe, oferecendo salas de reunião personalizadas e ferramentas de produtividade.",

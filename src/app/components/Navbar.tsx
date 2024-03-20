@@ -12,6 +12,20 @@ export default function Navbar() {
       <Image className="mx-4" src={"/g1.png"} alt="" width={150} height={1} />
       <ul className="hidden sm:flex gap-8 text-white text-lg items-center px-16">
         <li>
+          <Link href={"/"}>
+            <span
+              className={`relative hover:text-gray-300 transition duration-200`}
+            >
+              Home
+              <span
+                className={`absolute h-[1px] bg-white bottom-0 left-0 transition-all duration-200 ${
+                  path === "/" ? "w-full" : "w-0"
+                }`}
+              />
+            </span>
+          </Link>
+        </li>
+        <li>
           <Link href={"/meta"}>
             <span
               className={`relative hover:text-gray-300 transition duration-200 `}
