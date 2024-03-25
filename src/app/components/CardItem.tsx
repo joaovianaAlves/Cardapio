@@ -1,8 +1,9 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaMeta } from "react-icons/fa6";
-import { SiGmail } from "react-icons/si";
+import { useState } from "react";
+import Modal from "./Modal";
 
 interface CardInfo {
   image: string;
@@ -16,6 +17,17 @@ interface CardItemProps {
 }
 
 export default function CardItem({ cardInfo }: CardItemProps) {
+  const [modal, setModal] = useState(false);
+  const [currentItem, setCurrentItem] = useState<CardInfo | null>(null);
+
+  const togleModal = (item: CardInfo) => {
+    setCurrentItem(item);
+    setModal(true);
+  };
+
+  const untogleModal = () => {
+    setModal(false);
+  };
   return cardInfo.map((item, index) => {
     return (
       <div key={index} className="m-2 min-w-[200px]">
@@ -43,7 +55,7 @@ export default function CardItem({ cardInfo }: CardItemProps) {
                   <span className="text-white font-bold">Explorar</span>
                 </Link>
                 <Link
-                  href={item.link}
+                  href={"https://forms.gle/2Xd1ofQMQT9Mw2sQ7"}
                   className="mx-1 border-2 shadow-lg w-full sm:w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-2 rounded-lg bg-blue-600 transform hover:scale-105"
                 >
                   <span className="text-white font-bold">Solicitar</span>
@@ -52,17 +64,11 @@ export default function CardItem({ cardInfo }: CardItemProps) {
             ) : (
               <div className="flex justify-center items-center">
                 <Link
-                  href={"/nao"}
-                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-14 rounded-lg bg-blue-600 transform hover:scale-105"
+                  href={"https://forms.gle/2Xd1ofQMQT9Mw2sQ7"}
+                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-12 rounded-lg bg-blue-600 transform hover:scale-105"
                 >
                   <span className="text-white font-bold">Solicitar</span>
                 </Link>
-                {/* <Link
-                  href={"/nao"}
-                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-2 rounded-lg bg-blue-600 transform hover:scale-105"
-                >
-                  <span className="text-white font-bold">Explorar</span>
-                </Link> */}
               </div>
             )}
           </div>
