@@ -14,7 +14,7 @@ export default function Navbar() {
         <li>
           <Link href={"/"}>
             <span
-              className={`relative hover:text-gray-300 transition duration-200`}
+              className={`relative hover:text-gray-400 transition duration-200`}
             >
               Home
               <span
