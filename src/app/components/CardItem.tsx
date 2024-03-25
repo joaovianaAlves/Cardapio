@@ -55,7 +55,7 @@ export default function CardItem({ cardInfo }: CardItemProps) {
                   <span className="text-white font-bold">Explorar</span>
                 </Link>
                 <Link
-                  href={item.link}
+                  href={"https://forms.gle/2Xd1ofQMQT9Mw2sQ7"}
                   className="mx-1 border-2 shadow-lg w-full sm:w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-2 rounded-lg bg-blue-600 transform hover:scale-105"
                 >
                   <span className="text-white font-bold">Solicitar</span>
@@ -63,25 +63,12 @@ export default function CardItem({ cardInfo }: CardItemProps) {
               </div>
             ) : (
               <div className="flex justify-center items-center">
-                <button
-                  onClick={() => togleModal(item)}
-                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-14 rounded-lg bg-blue-600 transform hover:scale-105"
+                <Link
+                  href={"https://forms.gle/2Xd1ofQMQT9Mw2sQ7"}
+                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-12 rounded-lg bg-blue-600 transform hover:scale-105"
                 >
                   <span className="text-white font-bold">Solicitar</span>
-                </button>
-                {modal && currentItem && (
-                  <div className="fixed  inset-0 flex items-center justify-center z-50">
-                    <div className="bg-white p-5 rounded-lg shadow-xl">
-                      <Modal onClose={untogleModal} />
-                    </div>
-                  </div>
-                )}
-                {/* <Link
-                  href={"/nao"}
-                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-2 rounded-lg bg-blue-600 transform hover:scale-105"
-                >
-                  <span className="text-white font-bold">Explorar</span>
-                </Link> */}
+                </Link>
               </div>
             )}
           </div>
