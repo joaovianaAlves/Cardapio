@@ -8,13 +8,13 @@ export default function Navbar() {
   const path = usePathname();
 
   return (
-    <div className="flex justify-between bg-[#2F2878] p-4">
+    <div className={"flex justify-between bg-[#2F2878] p-4"}>
       <Image className="mx-4" src={"/g1.png"} alt="" width={150} height={1} />
-      <ul className="hidden sm:flex gap-8 text-white text-lg items-center px-16">
+      <ul className="sm:flex gap-8 text-white text-lg items-center px-16">
         <li>
           <Link href={"/"}>
             <span
-              className={`relative hover:text-gray-300 transition duration-200`}
+              className={`relative hover:text-gray-400 transition duration-200`}
             >
               Home
               <span

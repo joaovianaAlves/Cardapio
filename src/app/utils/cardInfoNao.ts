@@ -12,7 +12,7 @@ export const cardInfo = [
       "Crie bingos personalizados sobre qualquer assunto, tornando o aprendizado mais divertido e interativo.",
   },
   {
-    image: "/Nao/ContacaoDeHistorias.png",
+    image: "/Nao/ContacaodeHistorias.png",
     title: "Contação de Histórias",
     description:
       "Mergulhe seus alunos em mundos mágicos com histórias envolventes, utilizando recursos como narração e sons.",

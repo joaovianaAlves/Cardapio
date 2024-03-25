@@ -49,27 +49,15 @@ export default function CardItem({ cardInfo }: CardItemProps) {
             {item.link ? (
               <div className="flex justify-center items-center">
                 <Link
+                  target="_blank"
                   href={item.link}
-                  className="mx-1 border-2 shadow-lg w-full sm:w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-2 rounded-lg bg-blue-600 transform hover:scale-105"
+                  className="mx-1 border-2 shadow-lg w-full sm:w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-10 rounded-lg bg-blue-600 transform hover:scale-105"
                 >
                   <span className="text-white font-bold">Explorar</span>
                 </Link>
-                <Link
-                  href={"https://forms.gle/2Xd1ofQMQT9Mw2sQ7"}
-                  className="mx-1 border-2 shadow-lg w-full sm:w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-2 rounded-lg bg-blue-600 transform hover:scale-105"
-                >
-                  <span className="text-white font-bold">Solicitar</span>
-                </Link>
               </div>
             ) : (
-              <div className="flex justify-center items-center">
-                <Link
-                  href={"https://forms.gle/2Xd1ofQMQT9Mw2sQ7"}
-                  className="mx-1 border-2 shadow-lg w-[90%] transition duration-300 ease-in-out cursor-pointer p-1 px-12 rounded-lg bg-blue-600 transform hover:scale-105"
-                >
-                  <span className="text-white font-bold">Solicitar</span>
-                </Link>
-              </div>
+              ""
             )}
           </div>
         </div>
