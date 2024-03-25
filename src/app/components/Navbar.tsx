@@ -8,9 +8,15 @@ export default function Navbar() {
   const path = usePathname();
 
   return (
-    <div className="flex justify-between bg-[#2F2878] p-4">
+    <div
+      className={
+        window.innerWidth > 768
+          ? "flex justify-between bg-[#2F2878] p-4"
+          : "flex justify-between bg-[#2F2878] p-4"
+      }
+    >
       <Image className="mx-4" src={"/g1.png"} alt="" width={150} height={1} />
-      <ul className="hidden sm:flex gap-8 text-white text-lg items-center px-16">
+      <ul className="sm:flex gap-8 text-white text-lg items-center px-16">
         <li>
           <Link href={"/"}>
             <span
