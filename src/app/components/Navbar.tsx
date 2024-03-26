@@ -8,8 +8,8 @@ export default function Navbar() {
   const path = usePathname();
 
   return (
-    <div className={"flex justify-between bg-[#2F2878] p-4"}>
-      <ul className="sm:flex gap-8 text-white text-lg items-center px-16">
+    <div className={"flex justify-end bg-[#2F2878] p-4"}>
+      <ul className="flex gap-8  text-white text-lg items-center px-4">
         <li>
           <Link href={"/"}>
             <span
