@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className={"flex justify-end bg-[#2F2878] p-4"}>
       <ul className="flex gap-8  text-white text-lg items-center px-4">
-        <li>
+        {/* <li>
           <Link href={"/"}>
             <span
               className={`relative hover:text-gray-300 transition duration-200 `}
@@ -23,7 +23,7 @@ export default function Navbar() {
               />
             </span>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href={"/nao"}>
             <span
