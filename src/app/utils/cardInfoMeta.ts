@@ -1,5 +1,3 @@
-import { link } from "fs";
-
 export const cardInfo = [
   {
     image: "/meta/Workrooms.jpg",
@@ -10,42 +8,42 @@ export const cardInfo = [
   },
   {
     image: "/meta/FirstTouch.jfif",
-    title: "First Touch",
+    title: "First-Touch",
     description:
       "Uma experiência introdutória que permite aos usuários explorar e interagir com o ambiente virtual do Oculus, oferecendo uma introdução tátil ao mundo da realidade virtual.",
     link: "https://www.meta.com/experiences/5808929989145615/",
   },
   {
     image: "/meta/BeatSaber.jfif",
-    title: "Beat Saber",
+    title: "Beat-Saber",
     description:
       "Um jogo de ritmo frenético que combina música, luzes e ação, onde os jogadores cortam blocos com sabres de luz ao ritmo da música.",
     link: "https://www.meta.com/pt-br/experiences/2448060205267927/",
   },
   {
     image: "/meta/HandsPhysics.jpg",
-    title: "Hands Physics",
+    title: "Hands-Physics",
     description:
       "Uma aplicação que demonstra a física realista das mãos e dos objetos em um ambiente virtual, proporcionando uma experiência imersiva de interação.",
     link: "https://www.meta.com/pt-br/experiences/3392175350802835/",
   },
   {
     image: "/meta/FirstHand.jpg",
-    title: "First Hand",
+    title: "First-Hand",
     description:
       "Uma experiência imersiva que coloca o usuário em diferentes situações do dia a dia, permitindo uma abordagem prática e interativa.",
     link: "https://www.meta.com/experiences/5030224183773255/",
   },
   {
     image: "/meta/FirstContact.jpg",
-    title: "First Contact",
+    title: "First-Contact",
     description:
       "Uma experiência introdutória que apresenta aos usuários os fundamentos da interação no Oculus VR, incluindo manipulação de objetos e interação com personagens virtuais.",
     link: "https://www.meta.com/experiences/2188021891257542/",
   },
   {
     image: "/meta/FirstSteps.jfif",
-    title: "First Steps",
+    title: "First-Steps",
     description:
       "Uma introdução interativa ao Oculus VR, que orienta os usuários através de diversas atividades e demonstra as capacidades do dispositivo.",
     link: "https://www.meta.com/experiences/3675568169182204/",
@@ -80,35 +78,35 @@ export const cardInfo = [
   },
   {
     image: "/meta/3DOrganon.jfif",
-    title: "3D Organon",
+    title: "3D-Organon",
     description:
       "Aplicativo educativo de anatomia em realidade virtual. Oferece modelos tridimensionais detalhados do corpo humano, permitindo aos usuários explorar sistemas e órgãos.",
     link: "https://www.meta.com/pt-br/experiences/6218475558223281/",
   },
   {
     image: "/meta/JurassicWord.jfif",
-    title: "Jurassic World",
+    title: "Jurassic-World",
     description:
       "Uma experiência imersiva que transporta os usuários para o mundo dos dinossauros, permitindo explorar e interagir com essas criaturas pré-históricas em seu habitat natural.",
     link: "http://www.meta.com/experiences/2557465320986444",
   },
   {
     image: "/meta/Prisms.png",
-    title: "Prisme Math",
+    title: "Prisme-Math",
     description:
       "Uma aplicação educativa que utiliza realidade virtual para ensinar conceitos matemáticos de uma forma interativa e envolvente.",
     link: "https://www.meta.com/experiences/8875714305775804/",
   },
   {
     image: "/meta/MissionISS.jfif",
-    title: "Mission ISS",
+    title: "Mission-ISS",
     description:
       "Uma experiência que simula a vida a bordo da Estação Espacial Internacional, permitindo aos usuários explorarem e realizarem tarefas como astronautas.",
     link: "https://www.meta.com/experiences/2094303753986147/",
   },
   {
     image: "/meta/GymClass.jfif",
-    title: "Gym Class",
+    title: "Gym-Class",
     description:
       "Uma aplicação de fitness em realidade virtual, que oferece basquete em um ambiente imersivo.",
     link: "https://www.meta.com/experiences/3661420607275144/",
@@ -129,7 +127,7 @@ export const cardInfo = [
   },
   {
     image: "/meta/GravitySketch.jfif",
-    title: "Gravity Sketch",
+    title: "Gravity-Sketch",
     description:
       "Uma ferramenta de design em realidade virtual que permite aos usuários criarem modelos tridimensionais de forma intuitiva e imersiva.",
     link: "https://www.meta.com/experiences/1587090851394426/",
@@ -143,14 +141,14 @@ export const cardInfo = [
   },
   {
     image: "/meta/XRWorkout.jfif",
-    title: "XR Workout",
+    title: "XR-Workout",
     description:
       "Uma aplicação de treino em realidade virtual, que oferece uma variedade de exercícios e rotinas de fitness em ambientes virtuais envolventes.",
     link: "https://www.meta.com/experiences/8266372770101746/",
   },
   {
     image: "/meta/SpaceExplorer.jfif",
-    title: "Space Explorer",
+    title: "Space-Explorer",
     description:
       "Uma experiência educativa que permite aos usuários explorarem o cosmos e aprenderem sobre astronomia em um ambiente virtual.",
     link: "https://www.meta.com/experiences/3006696236087408/",
@@ -178,7 +176,7 @@ export const cardInfo = [
   },
   {
     image: "/meta/SportsScramble.jfif",
-    title: "Sports Scramble",
+    title: "Sports-Scramble",
     description:
       "Uma experiência educativa que permite aos usuários explorarem o cosmos e aprenderem sobre astronomia em um ambiente virtual.",
     link: "https://www.meta.com/experiences/705576999566582/",
