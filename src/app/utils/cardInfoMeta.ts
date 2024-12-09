@@ -64,7 +64,7 @@ export const cardInfo = [
   },
   {
     image: "/meta/Golf.jfif",
-    title: "Golf+",
+    title: "Golf",
     description:
       "Uma simulação de golfe em realidade virtual, que oferece uma experiência realista de jogo em campos virtuais deslumbrantes.",
     link: "https://www.meta.com/pt-br/experiences/2412327085529357/",
