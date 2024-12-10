@@ -1,5 +1,6 @@
-export const cardInfo = [
+export const cardInfoMeta = [
   {
+    id: "1",
     image: "/meta/Workrooms.jpg",
     title: "Workrooms",
     description:
@@ -7,6 +8,7 @@ export const cardInfo = [
     link: "https://forwork.meta.com/horizon-workrooms/",
   },
   {
+    id: "2",
     image: "/meta/FirstTouch.jfif",
     title: "First-Touch",
     description:
@@ -14,6 +16,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/5808929989145615/",
   },
   {
+    id: "3",
     image: "/meta/BeatSaber.jfif",
     title: "Beat-Saber",
     description:
@@ -21,6 +24,7 @@ export const cardInfo = [
     link: "https://www.meta.com/pt-br/experiences/2448060205267927/",
   },
   {
+    id: "4",
     image: "/meta/HandsPhysics.jpg",
     title: "Hands-Physics",
     description:
@@ -28,6 +32,7 @@ export const cardInfo = [
     link: "https://www.meta.com/pt-br/experiences/3392175350802835/",
   },
   {
+    id: "5",
     image: "/meta/FirstHand.jpg",
     title: "First-Hand",
     description:
@@ -35,6 +40,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/5030224183773255/",
   },
   {
+    id: "6",
     image: "/meta/FirstContact.jpg",
     title: "First-Contact",
     description:
@@ -42,6 +48,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/2188021891257542/",
   },
   {
+    id: "7",
     image: "/meta/FirstSteps.jfif",
     title: "First-Steps",
     description:
@@ -49,6 +56,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/3675568169182204/",
   },
   {
+    id: "8",
     image: "/meta/Flipside.jfif",
     title: "Flipside",
     description:
@@ -56,6 +64,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/2305425142915253/",
   },
   {
+    id: "9",
     image: "/meta/Immerse.jfif",
     title: "Immerse",
     description:
@@ -63,6 +72,7 @@ export const cardInfo = [
     link: "https://www.immerse.com",
   },
   {
+    id: "10",
     image: "/meta/Golf.jfif",
     title: "Golf",
     description:
@@ -70,6 +80,7 @@ export const cardInfo = [
     link: "https://www.meta.com/pt-br/experiences/2412327085529357/",
   },
   {
+    id: "11",
     image: "/meta/BigScreen.jfif",
     title: "BigScreen",
     description:
@@ -77,6 +88,7 @@ export const cardInfo = [
     link: "https://www.meta.com/pt-br/experiences/2497738113633933/",
   },
   {
+    id: "12",
     image: "/meta/3DOrganon.jfif",
     title: "3D-Organon",
     description:
@@ -84,6 +96,7 @@ export const cardInfo = [
     link: "https://www.meta.com/pt-br/experiences/6218475558223281/",
   },
   {
+    id: "13",
     image: "/meta/JurassicWord.jfif",
     title: "Jurassic-World",
     description:
@@ -91,6 +104,7 @@ export const cardInfo = [
     link: "http://www.meta.com/experiences/2557465320986444",
   },
   {
+    id: "14",
     image: "/meta/Prisms.png",
     title: "Prisme-Math",
     description:
@@ -98,6 +112,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/8875714305775804/",
   },
   {
+    id: "15",
     image: "/meta/MissionISS.jfif",
     title: "Mission-ISS",
     description:
@@ -105,6 +120,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/2094303753986147/",
   },
   {
+    id: "16",
     image: "/meta/GymClass.jfif",
     title: "Gym-Class",
     description:
@@ -112,6 +128,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/3661420607275144/",
   },
   {
+    id: "17",
     image: "/meta/Alcove.jfif",
     title: "Alcove",
     description:
@@ -119,6 +136,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/3895528293794893/",
   },
   {
+    id: "18",
     image: "/meta/Arkio.jfif",
     title: "Arkio",
     description:
@@ -126,6 +144,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/2280319701979278/",
   },
   {
+    id: "19",
     image: "/meta/GravitySketch.jfif",
     title: "Gravity-Sketch",
     description:
@@ -133,6 +152,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/1587090851394426/",
   },
   {
+    id: "20",
     image: "/meta/Nanome.jfif",
     title: "Nanome",
     description:
@@ -140,6 +160,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/2038368596280231/",
   },
   {
+    id: "21",
     image: "/meta/XRWorkout.jfif",
     title: "XR-Workout",
     description:
@@ -147,6 +168,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/8266372770101746/",
   },
   {
+    id: "22",
     image: "/meta/SpaceExplorer.jfif",
     title: "Space-Explorer",
     description:
@@ -154,6 +176,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/3006696236087408/",
   },
   {
+    id: "23",
     image: "/meta/NeverBoard.jfif",
     title: "NeverBoard",
     description:
@@ -161,6 +184,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/2570320959694625/",
   },
   {
+    id: "24",
     image: "/meta/Mlk.jfif",
     title: "MLK",
     description:
@@ -168,6 +192,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/4790561384366997/",
   },
   {
+    id: "25",
     image: "/meta/Tripp.jfif",
     title: "Tripp",
     description:
@@ -175,6 +200,7 @@ export const cardInfo = [
     link: "https://www.meta.com/experiences/2173576192720129/",
   },
   {
+    id: "26",
     image: "/meta/SportsScramble.jfif",
     title: "Sports-Scramble",
     description:

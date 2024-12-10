@@ -1,21 +1,23 @@
 import React from "react";
-import { cardInfo } from "../utils/cardInfoMeta";
 import Image from "next/image";
 import Link from "next/link";
+import { cardInfoMeta } from "@/app/utils/cardInfoMeta";
+
+// Refatorar o Card Item e criar endpoint /nao/id e /meta/idzl
 
 export default async function Page({
   params,
 }: {
-  params: Promise<{ title: string }>;
+  params: Promise<{ id: string }>;
 }) {
-  let title = (await params).title;
+  let id = (await params).id;
 
-  const filteredItem = cardInfo.find((cardItem) => cardItem.title === title);
+  const filteredItem = cardInfoMeta.find((cardItem) => cardItem.id === id);
 
   console.log(filteredItem);
 
   if (!filteredItem) {
-    return <p>No card found with the title: {(await params).title}</p>;
+    return <p>No card found with the title: {id}</p>;
   }
 
   return (
